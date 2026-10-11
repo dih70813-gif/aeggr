@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "commandwheel",
+	"version": "${version}",
+	"name": "Command Wheel",
+	"description": "A customizable radial menu for your favourite commands, with folders (for example Homes).",
+	"authors": ["You"],
+	"license": "MIT",
+	"icon": "assets/commandwheel/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.commandwheel.CommandWheelClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
